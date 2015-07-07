@@ -1,3 +1,4 @@
 0000000000000000000000000000000000000000 28f3eaba400e3ea4900467093d4d199e55b3d02f Guillem Barba <guillem@nan-tic.com> 1434364778 +0200	clone: from git@github.com:NaN-tic/trytond-incoterm-sale-opportunity.git
 28f3eaba400e3ea4900467093d4d199e55b3d02f e8bdfd0fe14676ebe887db0b539932247cea8c9f Guillem Barba <guillem@nan-tic.com> 1434556004 +0200	commit: Adapted to 3.4
 e8bdfd0fe14676ebe887db0b539932247cea8c9f 9c96fbc10d217d1cc9fd866c8a521f40a906d1f4 Guillem Barba <guillem@nan-tic.com> 1434556037 +0200	commit: Don't call incoterm create with empty values list
+9c96fbc10d217d1cc9fd866c8a521f40a906d1f4 0f8825d1971bc72cc0b5cf2ed20adf77ae8c4eb5 Guillem Barba <guillem@nan-tic.com> 1436282351 +0200	commit: Fix abbreviation field name and labels
