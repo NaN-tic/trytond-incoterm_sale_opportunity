@@ -231,13 +231,13 @@ class IncotermSaleOpportunityTestCase(unittest.TestCase):
                 'incoterms': [('create', [
                     {
                         'year': '2010',
-                        'abbrevation': 'CPT',
+                        'abbreviation': 'CPT',
                         'value': Decimal('10'),
                         'currency': defaults['currency'].id,
                         'city': 'Alabama',
                     }, {
                         'year': '2010',
-                        'abbrevation': 'FOB',
+                        'abbreviation': 'FOB',
                         'value': Decimal('20'),
                         'currency': defaults['currency'].id,
                         'city': 'Georgia',
@@ -255,11 +255,11 @@ class IncotermSaleOpportunityTestCase(unittest.TestCase):
             sale, = Sale.search([])
             self.assertEqual(len(sale.incoterms), 2)
             self.assertEqual(sale.incoterms[0].year, '2010')
-            self.assertEqual(sale.incoterms[0].abbrevation, 'CPT')
+            self.assertEqual(sale.incoterms[0].abbreviation, 'CPT')
             self.assertEqual(sale.incoterms[0].value, Decimal('10'))
             self.assertEqual(sale.incoterms[0].city, 'Alabama')
             self.assertEqual(sale.incoterms[1].year, '2010')
-            self.assertEqual(sale.incoterms[1].abbrevation, 'FOB')
+            self.assertEqual(sale.incoterms[1].abbreviation, 'FOB')
             self.assertEqual(sale.incoterms[1].value, Decimal('20'))
             self.assertEqual(sale.incoterms[1].city, 'Georgia')
 

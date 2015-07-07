@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <form string="Incoterm Sale Opportunity">
-    <label name="abbrevation"/>
-    <field name="abbrevation"/>
+    <label name="abbreviation"/>
+    <field name="abbreviation"/>
     <label name="year"/>
     <field name="year"/>
     <label name="value"/>

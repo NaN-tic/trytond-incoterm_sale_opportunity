@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <tree string="Incoterm Sale Opportunity">
     <field name="year"/>
-    <field name="abbrevation"/>
+    <field name="abbreviation"/>
     <field name="value"/>
     <field name="currency"/>
     <field name="city"/>

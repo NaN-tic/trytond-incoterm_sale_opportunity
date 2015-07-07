@@ -35,7 +35,7 @@ class SaleOpportunity:
             SaleIncoterm.create(map(
                 lambda incoterm: {
                     'year': incoterm.year,
-                    'abbrevation': incoterm.abbrevation,
+                    'abbreviation': incoterm.abbreviation,
                     'value': incoterm.value,
                     'currency': incoterm.currency.id,
                     'city': incoterm.city,
